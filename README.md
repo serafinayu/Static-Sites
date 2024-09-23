@@ -1,0 +1,1 @@
+This repository is a collection of static sites I've worked on to practice my front end development skills.
