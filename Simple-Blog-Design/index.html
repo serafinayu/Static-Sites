@@ -1,0 +1,206 @@
+<!-- Declares the document as an html file, telling the browser to render the html code as html5 -->
+<!DOCTYPE html> 
+
+<!-- lang is set to unknown if not specified -->
+<html lang="en">
+    <!-- head houses the metadata of the website, this data is used by search engines -->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- The title of the webpage, displayed in the browser's title bar -->
+        <title>Simple Blog Design</title>
+        <!-- Applies the styles from the css file to the html here -->
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Recursive:wght@300..1000&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <!-- This icon appears next to the title in the websites tab -->
+        <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    </head>
+
+    <body>
+        <div class="page-top">
+            <!-- Header -->
+            <header class="poppins-regular logo">
+                writings.dev
+
+                <!-- Main navigation bar -->
+                <nav class="main-nav">
+                    <a href="/categories/">categories</a>
+                    <a href="/articles/">articles</a>
+                    <a href="/about/">about</a>
+                </nav>
+            </header>
+
+            <!-- Logo -->
+            <img src="images/InkLogo.png" class="ink-logo" width="200" height="200">
+
+            <h1 class="recursive italic page-title">Writings for Developers</h1>
+            <h3 class="poppins-regular page-description">Curated collection of articles for busy developers</h3>
+        </div>
+
+        <div class="page-mid recursive italic">
+            <div class="sub-nav-wrapper">
+                <nav class="sub-nav">
+                    <div class="list-format">
+                        <img src="images/Grid Icon.png" class="nav-icon" width="24px" height="24px">
+                        <img src="images/List Icon.png" class="nav-icon" width="24px" height="24px">
+                    </div>
+                    <a href="/javascript/">JavaScript</a>
+                    <a href="/devops/">DevOps</a>
+                    <a href="/cloud/">Cloud</a>
+                    <a href="/terraform/">Terraform</a>
+                    <a href="/architecture/">Architecture</a>
+                    <a href="/scalability/">Scalability</a>
+                    <a href="/explainers/" class="gradient-text">Explainers</a>
+                </nav>
+            </div>
+
+            <div class="card-list">
+                <div class="card poppins-regular">
+                    <div>
+                        <img src="images/cards/card1.png" class="card-img">
+                        <h4 class="card-title poppins-regular">Build continuous integration pipelines with GitHub Actions</h4>
+                        <p class="card-text poppins-regular">GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.</p>
+                    </div>
+                    <div class="card-footer poppins-regular">
+                        <p>June 24, 2022</p>
+                        <p class="dot">·</p>
+                        <p>DevOps</p>
+                    </div>
+                </div>
+                <div class="card poppins-regular">
+                    <div>
+                        <img src="images/cards/card2.png" class="card-img">
+                        <h4 class="card-title poppins-regular">Python for the Absolute beginners</h4>
+                        <p class="card-text poppins-regular">Python is the most popular programming language out there and it is used for so many different industries.</p>
+                    </div>
+                    <div class="card-footer poppins-regular">
+                        <p>June 24, 2022</p>
+                        <p class="dot">·</p>
+                        <p>DevOps</p>
+                    </div>
+                </div>
+                <div class="card poppins-regular">
+                    <div>
+                        <img src="images/cards/card3.png" class="card-img">
+                        <h4 class="card-title poppins-regular">Docker from Zero to Hero</h4>
+                        <p class="card-text poppins-regular">Learn what is Docker and  how Docker is used in the whole software development process.</p>
+                    </div>
+                    <div class="card-footer poppins-regular">
+                        <p>June 24, 2022</p>
+                        <p class="dot">·</p>
+                        <p>DevOps</p>
+                    </div>
+                </div>
+                <div class="card poppins-regular">
+                    <div>
+                        <img src="images/cards/card4.png" class="card-img">
+                        <h4 class="card-title poppins-regular">Build continuous integration pipelines with GitHub Actions</h4>
+                        <p class="card-text poppins-regular">GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.</p>
+                    </div>
+                    <div class="card-footer poppins-regular">
+                        <p>June 24, 2022</p>
+                        <p class="dot">·</p>
+                        <p>DevOps</p>
+                    </div>
+                </div>
+                <div class="card poppins-regular">
+                    <div>
+                        <img src="images/cards/card5.png" class="card-img">
+                        <h4 class="card-title poppins-regular">Build continuous integration pipelines with GitHub Actions</h4>
+                        <p class="card-text poppins-regular">GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.</p>
+                    </div>
+                    <div class="card-footer poppins-regular">
+                        <p>June 24, 2022</p>
+                        <p class="dot">·</p>
+                        <p>DevOps</p>
+                    </div>
+                </div>
+                <div class="card poppins-regular">
+                    <div>
+                        <img src="images/cards/card6.png" class="card-img">
+                        <h4 class="card-title poppins-regular">Build continuous integration pipelines with GitHub Actions</h4>
+                        <p class="card-text poppins-regular">GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.</p>
+                    </div>
+                    <div class="card-footer poppins-regular">
+                        <p>June 24, 2022</p>
+                        <p class="dot">·</p>
+                        <p>DevOps</p>
+                    </div>
+                </div>
+                <div class="card poppins-regular">
+                    <div>
+                        <img src="images/cards/card7.png" class="card-img">
+                        <h4 class="card-title poppins-regular">Build continuous integration pipelines with GitHub Actions</h4>
+                        <p class="card-text poppins-regular">GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.</p>
+                    </div>
+                    <div class="card-footer poppins-regular">
+                        <p>June 24, 2022</p>
+                        <p class="dot">·</p>
+                        <p>DevOps</p>
+                    </div>
+                </div>
+                <div class="card poppins-regular">
+                    <div>
+                        <img src="images/cards/card8.png" class="card-img">
+                        <h4 class="card-title poppins-regular">Build continuous integration pipelines with GitHub Actions</h4>
+                        <p class="card-text poppins-regular">GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.</p>
+                    </div>
+                    <div class="card-footer poppins-regular">
+                        <p>June 24, 2022</p>
+                        <p class="dot">·</p>
+                        <p>DevOps</p>
+                    </div>
+                </div>
+                <div class="card poppins-regular">
+                    <div>
+                        <img src="images/cards/card9.png" class="card-img">
+                        <h4 class="card-title poppins-regular">Build continuous integration pipelines with GitHub Actions</h4>
+                        <p class="card-text poppins-regular">GitHub actions provide a really powerful way to integrate continuous integration and delivery into your applications.</p>
+                    </div>
+                    <div class="card-footer poppins-regular">
+                        <p>June 24, 2022</p>
+                        <p class="dot">·</p>
+                        <p>DevOps</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="page-toggle"> 
+                <nav class="page-nav recursive italic">
+                    <a href="/">Previous</a>
+                    <a href="/">1</a>
+                    <a href="/">2</a>
+                    <a href="/">3</a>
+                    <a href="/">4</a>
+                    <a href="/">5</a>
+                    <a href="/">Next</a>
+                </nav>
+            </div>
+
+        </div>
+
+        <div class="page-foot">
+            <footer>
+                <div class="footer-left">
+                    <p class="source-sans-3 footer-name">writings.dev</p>
+                    <p class="source-sans-3 footer-credits">designed by @kamrify</p>
+                    <p class="source-sans-3 footer-credits">developed by Serafina Yu</p>
+                </div>
+                <div class="footer-right source-sans-3 footer-credits">
+                    <a href="https://x.com/WritingsDev">
+                        <img src="images/TwitterLogo.png">
+                        Follow @writingsdev
+                    </a>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

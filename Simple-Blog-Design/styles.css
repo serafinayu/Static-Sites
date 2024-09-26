@@ -1,0 +1,265 @@
+/* || GENERAL STYLES */
+
+body {
+    background-color: #232830;
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+h1, h2, h3, h4 {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* || FONTS */
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+}
+
+.recursive {
+    font-family: "Recursive", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.source-sans-3 {
+    font-family: "Source Sans 3", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+}
+
+/* || UTILITIES */
+
+.italic {
+    font-style: italic;
+}
+
+/* || SITEWIDE */
+
+.page-top {
+    margin: 3% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.main-nav {
+    font-size: 24px;
+}
+
+.main-nav > a {
+    margin: 0 10px;
+}
+
+.main-nav > a:last-of-type {
+    margin-right: 0px;
+}
+
+/* || MAIN PAGE CONTENT */
+/* || Top portion of the page */
+
+.ink-logo {
+    margin: 30px;
+    padding-left: 1%;   
+}
+
+.page-title {
+    color: #FF7575;
+    margin: 10px 0;
+    font-size: 71px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.page-description {
+    margin: 10px 0;
+    font-size: 29px;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* || Middle portion of the page */
+/* Sub navigation bar */
+.page-mid {
+    margin-top: 80px;
+    color: #909090;
+    border-top: 3px solid rgba(77, 77, 77, .2);
+    padding: 20px;
+    font-size: 27px;
+}
+
+.sub-nav-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+
+.sub-nav {
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, #909090 60%, rgba(144, 144, 144, 0.2));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.nav-icon {
+    margin: 0 5px;
+}
+
+.nav-icon:last-of-type {
+    margin-right: 2%;
+} 
+
+.list-format {
+    display: flex;
+    flex-direction: row;
+}
+
+/* List of different articles as cards */
+.card-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 22%;
+    margin: 1.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 22px;
+    padding: 20px;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 22px;
+    height: auto;
+}
+
+.card-title {
+    font-weight: 600;
+    font-size: 19px;
+    color: #0F1217;
+    margin: 3% 0 0 0;
+}
+
+.card-text {
+    font-size: 16px;
+    color: #0F1217;
+}
+
+.card-footer {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #0F1217
+}
+
+.card-footer > .dot {
+    margin: 2px 5%;
+}
+
+.card-footer > p {
+    margin: 0;
+}
+
+/* Nav bar to handle pagination */
+.page-toggle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    color: #909090;
+}
+
+.page-nav {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+.page-nav > a {
+    padding: 4%;
+    padding-left: 3%;
+    border-top: 3px solid transparent;
+}
+
+.page-nav> a:nth-child(3) {
+    color: #FF7575;
+    border-top: 3px solid #FF7575;
+}
+
+/* || Bottom portion of the page */
+.page-foot {
+    border-top: 3px solid rgba(77, 77, 77, .2);
+    display: flex;
+    justify-content: center;
+}
+
+.page-foot > footer {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 42%;
+    justify-content: space-between;
+}
+
+.footer-name {
+    font-size: 30px;
+}
+
+.footer-credits {
+    background-color: rgb(70, 153, 224);
+    border-radius: 5px;
+    padding: 5px 8px;
+    margin: 0;
+}
+
+.footer-right > a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-right > a > img {
+    margin: 0 5px;
+}
